@@ -1,0 +1,31 @@
+body {
+  margin:0;
+  padding:0;
+  width:100%;
+}
+
+/*dhexda ka dhig qoralka*/
+main {margin:0 25%;width:50%;}
+
+/*Discription list*/
+dd {margin:0;}
+
+footer {display:float;background-color:tomato;padding:10px;}
+
+footer p {float:left;}
+
+aside {display:flex;float:right;}
+
+.axdi {display:flex;}
+
+.axdi {margin:0 10px;}
+
+.axdi button {width:50px;height:30px;}
+
+/*weynay qoralka si u bogga dham uga muuqdo*/
+
+@media (max-width:600px) {
+  main {
+    margin:0;width:100%;padding:10px;
+  }
+}
