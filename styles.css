@@ -1,6 +1,6 @@
 /*Qurxinta qoralka*/
 body {
-  font-size:1em;
+  font-size:1em; /*1em=16px*/
   font-family:"Times New Roman",serif;
   line-height:1.4em;
 }
