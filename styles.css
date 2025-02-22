@@ -14,3 +14,19 @@ h3 {font-family:"Times New Roman",Garamond,Georgia,serif;font-weight:lighter;fon
 /*ereyada oo dhexda ku urruuriyey*/
 main {margin:auto;max-width:600px;}
 
+/*badhan billow ku dhiga*/
+nav a {
+  position:fixed;
+  bottom:0em;
+  right:0em;
+  margin:1em;
+  width:1em;
+  padding:1em;
+  border:1px solid #000000;
+  color:#000000;
+  background-color:#ffffff;
+  text-align:center;
+  text-decoration:none;
+}
+
+nav a:hover {color:#ffffff;background-color:#000000;}
