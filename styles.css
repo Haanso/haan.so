@@ -20,13 +20,15 @@ nav a {
   bottom:0em;
   right:0em;
   margin:1em;
-  width:1em;
-  padding:1em;
+  width:2em;
+  padding:0.875em;
   border:1px solid #000000;
-  color:#000000;
-  background-color:#ffffff;
+  font-size:0.875em;
   text-align:center;
   text-decoration:none;
+  line-height:0.875em;
+  color:#000000;
+  background-color:#ffffff;
 }
 
 nav a:hover {color:#ffffff;background-color:#000000;}
