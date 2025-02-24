@@ -1,6 +1,6 @@
 /*Qurxinta qoralka*/
 body {
-  font-size:1em; /*1em=16px*/
+  font-size:0.875em; /*1em=16px*/
   font-family:"Times New Roman",serif;
   line-height:1.4em;
 }
@@ -10,6 +10,9 @@ h1 {font-family:"Times New Roman",Garamond,Georgia,serif;font-weight:lighter;fon
 h2 {font-family:"Times New Roman",Garamond,Georgia,serif;font-weight:lighter;font-size:1.8em;}
 
 h3 {font-family:"Times New Roman",Garamond,Georgia,serif;font-weight:lighter;font-size:1.6em;}
+
+/*ballarinta ereyada*/
+dt {font-weight:600;}
 
 /*ereyada oo dhexda ku urruuriyey*/
 main {margin:auto;max-width:600px;}
