@@ -1,3 +1,4 @@
+
 /*Qurxinta qoralka*/
 body {
   font-size:0.875em; /*1em=16px*/
@@ -18,7 +19,27 @@ dt {font-weight:600;}
 main {margin:auto;max-width:600px;}
 
 /*badhan billow ku dhiga*/
-nav a {
+nav {
+  margin:auto;
+  max-width:600px;
+  border-bottom:1px solid #dfdfdf;
+}
+
+nav header {
+  display:flex;
+  justify-content:space-between;
+}
+
+#faashan {
+  padding:1px;
+  border:1px solid #47ceeb;
+  border-radius:50px;
+  font-size:0.3em;
+}
+
+#faashan:hover {background-color:#99ceeb;}
+
+#badhan-kor {
   position:fixed;
   bottom:0em;
   right:0em;
@@ -34,4 +55,33 @@ nav a {
   background-color:#ffffff;
 }
 
-nav a:hover {color:#ffffff;background-color:#000000;}
+#badhan-kor:hover {color:#ffffff;background-color:#000000;}
+
+footer {
+  display:flex;
+  justify-content:space-between;
+  margin:auto;
+  max-width:600px;
+  color:#a3a3a3;
+}
+
+/*xogta Haanso aruuri*/
+#fariin a {
+  display:inline-block;
+  position:fixed;
+  top:-5px;
+  left:5px;
+  padding:0.2em 1em;
+  font-size:0.825em;
+  text-decoration:none;
+  border:1px solid #47ceeb;
+  border-radius:4px;
+  color:#fff;
+  background-color:#47ceeb;
+}
+
+#fariin a:hover {background-color:#99ceeb}
+
+#fariin a span {
+  font-size:1.5em;
+}
